@@ -24,12 +24,13 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.list_folders);
 
         //определяем массив типа String
-        final String[] listFolders = new String[]{"breakfast", "dinner", "soups", "salads", "dessert"};
+        String [] listFolders = getResources().getStringArray(R.array.list_folders);
+        //final String[] listFolders = new String[]{"breakfast", "dinner", "soups", "salads", "dessert"};
 
         //используем адаптер данных
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1, listFolders);
-        listView.setAdapter(adapter);
+        listView.setAdapter(adapter); // связывает подготовленный список с адаптером
 
 //        // Создание адаптера и скармливание его в ListView
 //        Adapter adapter = new Adapter();

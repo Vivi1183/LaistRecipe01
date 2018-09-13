@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LaistRecipe01</string>
+
+    <string-array name="list_folders">
+        <item>breackfast</item>
+        <item>dinner</item>
+        <item>soups</item>
+        <item>salads</item>
+        <item>dessert</item>
+    </string-array>
 </resources>
