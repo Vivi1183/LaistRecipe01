@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    //ресурсы для разделителя - цвет и высота
+    <color name="reddivider">#FF0000</color>
+    <dimen name="twodp">2dp</dimen>
 </resources>
