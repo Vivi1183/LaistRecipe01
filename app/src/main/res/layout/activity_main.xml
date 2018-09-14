@@ -38,6 +38,13 @@
 
     </LinearLayout>
 
+    <EditText
+        android:id="@+id/recipe_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipe"
+        android:maxLength="30"/>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
